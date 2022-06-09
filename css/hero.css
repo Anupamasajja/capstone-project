@@ -291,6 +291,36 @@ label {
     top: 240px;
 }
 
+h1 {
+    /* Organise projects. Get more done. */
+
+    width: 730px;
+    height: 196px;
+
+    /* Heading/H1 */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
+    /* or 136% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    /* Text / Gray 900 */
+
+    color: #18191F;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
 button {
     /* Button */
     /* Auto layout */
@@ -317,11 +347,70 @@ button {
 }
 
 .phonemockup {
+    /* Phone Mockup */
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 350px;
+    height: 640px;
+    left: 925px;
+    top: 168px;
+}
+
+.mobileiphonex {
+    /* Mobile / iPhone X */
+
+    width: 320px;
+    height: 640px;
+
+    /* Mobile Mockup Shadow */
+
+    filter: drop-shadow(10px 15px 30px rgba(41, 41, 42, 0.5));
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.iphonex {
+    /* iPhone X */
+
     position: absolute;
     left: 0%;
     right: 0%;
     top: 0%;
     bottom: 0%;
 
-    background: url(image.png);
+    background: url(../images/iPhone_X.jpg);
+}
+
+.screen {
+    /* Screen */
+
+    position: absolute;
+    left: 6.51%;
+    right: 6.28%;
+    top: 3.02%;
+    bottom: 2.56%;
+
+    background: url(../images/Screen.jpg);
+}
+
+.background {
+    /* Background */
+
+    position: absolute;
+    width: 1440px;
+    height: 866px;
+    left: 0px;
+    top: 0px;
+
+    background-image: url(../images/hero_background.jpg);
 }
